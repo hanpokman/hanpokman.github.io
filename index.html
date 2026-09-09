@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f5f3">
+  <meta name="description" content="Nathan Han — exploring quantum machine learning, intelligent robotics, and the space between. Incoming Computer Science student at UC Santa Barbara.">
+  <meta property="og:title" content="Nathan Han — Curiosity. Made tangible.">
+  <meta property="og:description" content="Selected research and projects in quantum machine learning and intelligent robotics.">
+  <meta property="og:type" content="website">
+  <title>Nathan Han — Curiosity. Made tangible.</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <a class="identity" href="#top" aria-label="Nathan Han, home"><span class="monogram" aria-hidden="true">nh<span>·</span></span><span>Nathan Han</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#research">Research</a><a href="#work">Selected work</a><a href="#about">About</a>
+    </nav>
+    <a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="main">
+    <section class="hero section-width" id="home" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p class="eyebrow"><span class="small-line"></span> NATHAN / POK MAN HAN</p>
+        <h1 id="hero-title">Curiosity.<br>Made tangible.</h1>
+        <p class="hero-description">Exploring the space between<br class="desktop-break"> intelligent machines and the physical world.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#work">Explore my work <span aria-hidden="true">↗</span></a><a class="text-link" href="./assets/Han_Pok_Man_CV.pdf" target="_blank" rel="noopener">View résumé <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="hero-art">
+        <div class="scene hero-scene" id="hero-scene" aria-hidden="true">
+          <img class="scene-fallback" src="./assets/orbit.svg" alt="">
+        </div>
+        <span class="art-coordinate art-coordinate-top" aria-hidden="true">FIG. 01 — A CURIOUS ORBIT</span>
+        <span class="art-coordinate art-coordinate-bottom" aria-hidden="true"><span class="crosshair">+</span> IDEAS IN MOTION</span>
+      </div>
+      <div class="hero-foot"><p>MACAU → SANTA BARBARA<br><span>Incoming CS · UCSB, Fall 2026</span></p><a class="scroll-prompt" href="#research"><span>Scroll to discover</span><span class="scroll-arrow" aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <div class="discipline-strip"><div class="section-width"><span>QUANTUM MACHINE LEARNING</span><span class="strip-dot" aria-hidden="true">·</span><span>INTELLIGENT ROBOTICS</span><span class="strip-dot" aria-hidden="true">·</span><span>PHYSICS-INFORMED LEARNING</span></div></div>
+
+    <section class="research" id="research" aria-labelledby="research-title">
+      <div class="research-sticky section-width">
+        <div class="research-heading"><p class="eyebrow"><span class="small-line"></span> 01 / RESEARCH SPOTLIGHT</p><span class="section-date">UNIVERSITY OF MACAU · 2026</span></div>
+        <div class="research-layout">
+          <div class="research-copy"><h2 id="research-title">Learning the<br>language of<br><span>quantum.</span></h2><p>What if a model could learn how a quantum system evolves — with physics built into its structure?</p><p class="research-secondary">I developed the Latent Hamiltonian Quantum Propagator to forecast coherent drift and crosstalk in small superconducting-qubit systems.</p><button class="text-link light-link" data-project="quantum">Inside the research <span aria-hidden="true">↗</span></button></div>
+          <div class="research-visual"><div class="scene" id="quantum-scene" aria-hidden="true"><img class="scene-fallback" src="./assets/chip.svg" alt=""></div><div class="model-caption"><span>LHQP / PHYSICS-STRUCTURED LEARNING</span><span>CONCEPTUAL MODEL</span></div></div>
+        </div>
+        <div class="research-bottom"><div class="research-stats"><div><strong>9,150</strong><span>Completed synthetic runs</span></div><div><strong>17</strong><span>Comparison models</span></div><div><strong>0.9731</strong><span>Diagonal drift fidelity¹</span></div></div><p class="research-note">¹ Horizon-mean fidelity in simulation. A state-vector feasibility study; hardware validation is future work.</p></div>
+        <div class="research-progress" aria-hidden="true"><span></span></div>
+      </div>
+    </section>
+
+    <section class="work section-width" id="work" aria-labelledby="work-title">
+      <div class="section-top"><div><p class="eyebrow"><span class="small-line"></span> 02 / SELECTED WORK</p><h2 id="work-title">Ideas, out in the world.</h2></div><p>From a lake’s surface<br>to the spaces we call home.</p></div>
+      <div class="project-grid">
+        <article class="project">
+          <button class="project-visual vessel-visual" data-project="vessel" aria-label="Read about the autonomous surface vehicle">
+            <span class="visual-label">FIELD SYSTEM / 001</span>
+            <span class="scene" id="vessel-scene" aria-hidden="true"><img class="scene-fallback" src="./assets/vessel.svg" alt=""></span>
+            <span class="visual-caption">DESIGNED FOR A CLOSER LOOK</span><span class="round-arrow" aria-hidden="true">↗</span>
+          </button>
+          <div class="project-meta"><span>ROBOTICS · ENVIRONMENTAL SENSING</span><span>2023–2024</span></div>
+          <h3><button data-project="vessel">Intelligence on the water.</button></h3>
+          <p>An autonomous surface vehicle for Macau’s lakes. Edge AI above the surface. A custom 20-meter lowering platform beneath it.</p>
+          <button class="text-link" data-project="vessel">Explore project <span aria-hidden="true">↗</span></button>
+        </article>
+        <article class="project">
+          <button class="project-visual mapping-visual" data-project="mapping" aria-label="Read about depth-informed item mapping">
+            <span class="visual-label">SPATIAL INTELLIGENCE / 002</span><img class="mapping-image" src="./assets/mapping.svg" alt="Conceptual isometric room with depth-mapping points and a robot">
+            <span class="visual-caption">MAKING SPACE MAKE SENSE</span><span class="round-arrow" aria-hidden="true">↗</span>
+          </button>
+          <div class="project-meta"><span>COMPUTER VISION · PUBLISHED RESEARCH</span><span>2022–2024</span></div>
+          <h3><button data-project="mapping">A different sense of space.</button></h3>
+          <p>Helping home-service robots locate and track objects using depth, geometry, and a lighter approach to indoor mapping.</p>
+          <button class="text-link" data-project="mapping">Explore project <span aria-hidden="true">↗</span></button>
+        </article>
+      </div>
+      <a class="github-link" href="https://github.com/hanpokman" target="_blank" rel="noopener noreferrer">More on GitHub <span aria-hidden="true">↗</span></a>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title"><div class="section-width">
+      <div class="about-top"><p class="eyebrow"><span class="small-line"></span> 03 / THE PERSON BEHIND THE WORK</p><span class="about-location">FROM MACAU / OPEN TO THE WORLD</span></div>
+      <div class="about-layout"><h2 id="about-title">Always asking<br><span>what’s possible.</span></h2><div class="about-copy"><p>I’m Nathan, also known as Pok Man Han. My work brings together machine learning, physics, and robotics — from understanding quantum dynamics to building systems that explore the world around us.</p><p>I’m an incoming Computer Science student at UC Santa Barbara, starting September 2026. Previously, I researched stochastic diffusion models in Prof. Wang Peng’s lab at the University of Macau.</p><p>Beyond research, I’ve led my school’s robotics lab, mentored younger builders, and brought people together on the soccer field.</p><a class="text-link" href="./assets/Han_Pok_Man_CV.pdf" target="_blank" rel="noopener">The full story, in my résumé <span aria-hidden="true">↗</span></a></div></div>
+      <div class="capabilities"><span>Python</span><span>C++</span><span>Java</span><span>PyTorch</span><span>TensorFlow</span><span>Computer vision</span><span>Quantum simulation</span></div>
+      <div class="recognition"><div><p class="eyebrow">SELECTED RECOGNITION</p><p>A few milestones<br>along the way.</p></div><ul><li><span>ISEF</span><span>Special Award</span><span>2024</span></li><li><span>Korean Science and Engineering Fair</span><span>First Prize</span><span>2024</span></li><li><span>China Adolescents Science &amp; Technology Innovation Contest</span><span>First Prize</span><span>2024</span></li><li><span>Asia Pacific ICT Alliance</span><span>Merit</span><span>2022, 2023</span></li></ul></div>
+    </div></section>
+
+    <section class="contact section-width" id="contact" aria-labelledby="contact-title"><p class="eyebrow"><span class="small-line"></span> NEXT / SOMETHING INTERESTING</p><h2 id="contact-title">Good questions.<br><span>Great beginnings.</span></h2><p>Research, collaboration, or a conversation.<br>I’d love to hear what you’re thinking about.</p><a class="button button-dark" href="mailto:nathanhan@ucsb.edu">Say hello <span aria-hidden="true">↗</span></a><a class="email-link" href="mailto:nathanhan@ucsb.edu">nathanhan@ucsb.edu</a><div class="contact-orbit" aria-hidden="true"></div></section>
+  </main>
+
+  <footer class="site-footer section-width"><a class="identity" href="#top"><span class="monogram" aria-hidden="true">nh<span>·</span></span><span>© <span id="year">2026</span> Nathan Han</span></a><div><button id="motion-toggle" type="button" aria-pressed="false"><span class="motion-icon" aria-hidden="true">◉</span> <span id="motion-label">Motion on</span></button><a href="https://github.com/hanpokman" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="#top">Back to top ↑</a></div></footer>
+
+  <dialog id="project-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Close project details">×</button><div id="dialog-content"></div></dialog>
+  <noscript><p class="noscript-message">Enable JavaScript for the interactive 3D models and project details. You can also find the full project descriptions in the <a href="./assets/Han_Pok_Man_CV.pdf">résumé</a>.</p></noscript>
+</body>
+</html>
